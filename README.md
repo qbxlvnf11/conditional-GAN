@@ -16,10 +16,13 @@ Description
 Contents
 =============
 
-#### - Generating Fashion MNIST Image with CGAN
+#### - (Generating Fashion MNIST Image with CGAN)[https://github.com/qbxlvnf11/conditional-GAN/blob/main/conditional-GAN-generating-fashion-mnist.ipynb]
 - Generator
-- Discriminator
-- Adversarial learning
+  - Input: z (100 dimension), Output: generated image
+  - FC [256, 512, 1024]
+- Discriminator: FC-base
+  - Input: image (generated or real), Output: fake/real
+- Adversarial learning: refer to generator_train_step(), discriminator_train_step()
 
 Dataset
 =============

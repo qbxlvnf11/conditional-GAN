@@ -20,8 +20,9 @@ Contents
 - Generator
   - Input: z (100 dimension), Output: generated image
   - FC [256, 512, 1024]
-- Discriminator: FC-base
+- Discriminator
   - Input: image (generated or real), Output: fake/real
+  - FC [1024, 512, 256]
 - Adversarial learning: refer to generator_train_step(), discriminator_train_step()
 
 Dataset

@@ -3,7 +3,7 @@ Description
 
 #### - Conditional GAN (CGAN)
 
-<img src="https://user-images.githubusercontent.com/52263269/181246936-54cf9e93-1ab2-4a1a-9896-8f5c241903d8.png" width="70%"></img>
+<img src="https://user-images.githubusercontent.com/52263269/181246936-54cf9e93-1ab2-4a1a-9896-8f5c241903d8.png" width="60%"></img>
 
 - Conditional version of generative adversarial nets
   - In an unconditioned generative model, there is no control on modes of the data being generated.
@@ -11,7 +11,7 @@ Description
   - Simply feeding the data y, and conditioning both the generator and discriminator
 - Loss
 
-<img src="https://user-images.githubusercontent.com/52263269/181247747-39457171-bb0a-446f-bf51-92f9403d3025.png" width="100%"></img>
+<img src="https://user-images.githubusercontent.com/52263269/181247747-39457171-bb0a-446f-bf51-92f9403d3025.png" width="80%"></img>
 
 Contents
 =============

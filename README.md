@@ -1,14 +1,22 @@
 Description
 =============
 
-#### - Conditional GAN (cGAN)
-- A GAN that allows you to choose the label of the generated image
+#### - Conditional GAN (CGAN)
+
+<img src="https://user-images.githubusercontent.com/52263269/181246936-54cf9e93-1ab2-4a1a-9896-8f5c241903d8.png" width="50%"></img>
+
+- Conditional version of generative adversarial nets
+  - In an unconditioned generative model, there is no control on modes of the data being generated.
+  - In the Conditional GAN (CGAN), the generator learns to generate a fake sample with a specific condition or characteristics (such as a label associated with an image or more detailed tag) rather than a generic sample from unknown noise distribution. 
+  - Simply feeding the data y, and conditioning both the generator and discriminator
 - Loss
+
+<img src="https://user-images.githubusercontent.com/52263269/181247747-39457171-bb0a-446f-bf51-92f9403d3025.png" width="50%"></img>
 
 Contents
 =============
 
-#### - Generating Fashion MNIST Image with cGAN
+#### - Generating Fashion MNIST Image with CGAN
 - Generator
 - Discriminator
 - Adversarial learning
@@ -23,9 +31,19 @@ https://www.kaggle.com/datasets/zalando-research/fashionmnist
 References
 =============
 
-#### - cGAN
+#### - CGAN code
 
 https://www.kaggle.com/code/arturlacerda/pytorch-conditional-gan/notebook
+
+#### - CGAN Paper
+```
+@article{CGAN,
+  title={Conditional Generative Adversarial Nets},
+  author={Mehdi Mirza, Simon Osindero},
+  journal = {arXiv},
+  year={2014}
+}
+```
 
 Author
 =============

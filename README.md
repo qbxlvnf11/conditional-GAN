@@ -9,7 +9,7 @@ Description
   - In an unconditioned generative model, there is no control on modes of the data being generated.
   - In the Conditional GAN (CGAN), the generator learns to generate a fake sample with a specific condition or characteristics (such as a label associated with an image or more detailed tag) rather than a generic sample from unknown noise distribution. 
   - Simply feeding the data y, and conditioning both the generator and discriminator
-- Adversarial loss
+- Adversarial learning loss of CGAN
 
 <img src="https://user-images.githubusercontent.com/52263269/181247747-39457171-bb0a-446f-bf51-92f9403d3025.png" width="80%"></img>
 
